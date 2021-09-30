@@ -8,7 +8,6 @@ ICS Assignment 2 : RSA Algorithm
 */
 
 #include<iostream>
-#include<math.h>
 using namespace std;
 
 class rsa
