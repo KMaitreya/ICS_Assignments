@@ -32,7 +32,7 @@ class crt
     {
         int r, d;
 
-        cout<<"Enter the number of divisiors or remainders : ";
+        cout<<"Enter the number of divisors or remainders : ";
         cin>>n;
 
         cout<<endl<<"Enter the divisors and the corresponding remainders : "<<endl;
@@ -96,7 +96,7 @@ int main()
     solution=obj.pipeline();
 
     if(solution==0)
-    cout<<"Solution not possible as divisors aren't relatively prime.";
+    cout<<"The solution is not possible as divisors aren't relatively prime.";
     else
     cout<<endl<<"X="<<solution;
 
@@ -108,7 +108,7 @@ int main()
 
 OUTPUT 1:
 
-Enter the number of divisiors or remainders : 3
+Enter the number of divisors or remainders : 3
 
 Enter the divisors and the corresponding remainders :
 3 2
@@ -120,7 +120,7 @@ X=11
 
 OUTPUT 2:
 
-Enter the number of divisiors or remainders : 3
+Enter the number of divisors or remainders : 3
 
 Enter the divisors and the corresponding remainders :
 3 2
